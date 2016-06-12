@@ -1,0 +1,15 @@
+maak een map in kleine letters aan
+npm init	(maakt packages.json aan)
+npm install express --save	(installeert express en past packages.json aan)
+npm install morgan --save	(morgan is middleware)
+
+maak server.js of index.js aan
+
+node server.js	draai applicatie
+
+
+documentatie
+expressjs.com
+
+github
+https://github.com/LamShuiYing/github_nodejs_express_1
