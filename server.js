@@ -7,7 +7,7 @@ var morgan = require('morgan');
 app.use(morgan('dev'));
 
 app.use('/', function(req, res){
-	res.send('Eerste Express programma');
+	res.send('Eerste Express programma die op Heroku te zien is');
 });
 app.listen(port);
 

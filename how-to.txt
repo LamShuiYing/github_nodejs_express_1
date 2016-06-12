@@ -1,5 +1,5 @@
 maak een map in kleine letters aan
-npm init	(maakt packages.json aan)
+npm init	(maakt packages.json aan) (Git URL-Repository)
 npm install express --save	(installeert express en past packages.json aan)
 npm install morgan --save	(morgan is middleware)
 
@@ -11,5 +11,43 @@ node server.js	draai applicatie
 documentatie
 expressjs.com
 
-github
-https://github.com/LamShuiYing/github_nodejs_express_1
+
+
+Github
+
+Op Github website maak repository aan 
+	daarna kan de URL gebruikt worden
+	https://github.com/LamShuiYing/github_nodejs_express_1
+
+Command prompt 
+	
+UPLOAD / Push naar github
+	
+CMD prompt in projectmap
+
+git init
+git add .
+git commit -m "commentaar over de commit/veranderingen"
+git remote add origin <URL-Repository>
+git remote -v
+git push origin master
+
+DOWNLOAD / Pull van github
+git pull <URL-Repository>
+
+
+GUI versie 
+https://guides.github.com/introduction/getting-your-project-on-github/
+
+
+	
+Heroku
+UPLOAD naar Heroku
+
+heroku login
+heroku create <heroku-appnaam>		(de applicatie wordt op heroku aangemaakt)
+git push heroku master				(stuurt de github bestanden naar heroku)
+
+
+
+
