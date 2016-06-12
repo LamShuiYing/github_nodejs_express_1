@@ -48,6 +48,10 @@ heroku login
 heroku create <heroku-appnaam>		(de applicatie wordt op heroku aangemaakt)
 git push heroku master				(stuurt de github bestanden naar heroku)
 
+2 batch files in map aanmaken
+batch voor upload naar github
+batch voor upload naar heroku
+de batches zullen naar de inloggegevens vragen. dus geen beveiligingsissues
 
 
 
